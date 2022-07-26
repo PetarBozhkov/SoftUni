@@ -4,7 +4,6 @@
 #· One with all the positives (including 0) numbers
 #· One with all the negatives numbers
 #Finally, print the following message:
-
 #"Count of positives: {count_positives}
 #Sum of negatives: {sum_of_negatives}"
 
