@@ -8,7 +8,6 @@
 #If one of the teams has less than 7 players remaining, the referee stops the game immediately, and the team with less than 7 players loses.
 
 #The card is a string with the team's letter ("A" or "B") followed by a single dash and the player's number. e.g., the card "B-7" means player #7 from team B received a card.
-
 #The task: You will be given a sequence of cards (could be empty), separated by a single space. 
 #You should print the count of remaining players on each team at the end of the game in the format: "Team A - {players_count}; Team B - {players_count}". 
 #If the referee terminated the game, print an additional line: "Game was terminated".
