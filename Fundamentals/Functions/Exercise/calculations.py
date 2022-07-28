@@ -1,7 +1,6 @@
 #3. Calculations
 
 #Create a function that receives three parameters, calculates a result depending on the given operator, and returns it. Print the result of the function.
-
 #The input comes as three parameters – an operator as a string and two integer numbers. 
 #The operator can be one of the following: "multiply", "divide", "add", "subtract".
 
@@ -20,6 +19,7 @@ type_of_operation = input()
 first_numbers = int(input())
 second_numbers = int(input())
 print(calculation_func(first_numbers, second_numbers, type_of_operation))
+
 # my own solution
 # my_operator = input()
 # number_one = int(input())
