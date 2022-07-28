@@ -1,5 +1,4 @@
 #6. Calculate Rectangle Area
-
 #Create a function that calculates and returns the area of a rectangle by given width and height. Print the result on the console.
 
 def area_of_a_rectangle(width, height):
