@@ -1,3 +1,9 @@
+#2. The Lift Submit your solutions in the SoftUni judge system at https://judge.softuni.org/Contests/Practice/Index/2517#1.
+
+#Write a program that finds a place for the tourist on a lift.
+
+#Every wagon should have a maximum of 4 people on it. If a wagon is full, you should direct the people to the next one with space available.
+
 def lift_func(waiting_people, current_state_of_the_lift):
     for i in range(len(current_state_of_the_lift)):
         if waiting_people > 3:
