@@ -1,4 +1,4 @@
-#3. Numbers Submit your solutions in the SoftUni judge system at https://judge.softuni.org/Contests/Practice/Index/2474#2.
+#3. Numbers
 
 #Write a program to read a sequence of integers and find and print the top 5 numbers greater than the average value in the sequence, sorted in descending order.
 
