@@ -1,4 +1,4 @@
-#1. Counter-Strike Submit your solutions in the SoftUni judge system at https://judge.softuni.org/Contests/Practice/Index/2305#0.
+#1. Counter-Strike
 
 #Write a program that keeps track of every won battle against an enemy. You will receive initial energy. 
 #Afterward, you will start receiving the distance you need to reach an enemy until the "End of battle" command is given or you run out of energy.
