@@ -1,4 +1,4 @@
-#2. The Lift Submit your solutions in the SoftUni judge system at https://judge.softuni.org/Contests/Practice/Index/2517#1.
+#2. The Lift 
 
 #Write a program that finds a place for the tourist on a lift.
 
