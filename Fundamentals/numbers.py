@@ -1,3 +1,7 @@
+#3. Numbers Submit your solutions in the SoftUni judge system at https://judge.softuni.org/Contests/Practice/Index/2474#2.
+
+#Write a program to read a sequence of integers and find and print the top 5 numbers greater than the average value in the sequence, sorted in descending order.
+
 def sorted_func(greater_numbers_than_average_sum):
     top_five_numbers = []
 
