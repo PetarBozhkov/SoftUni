@@ -5,7 +5,6 @@
 #After you receive the "End" command, print 2 lines:
 
 #· "Going: {people}" - the people should be separated by comma and space ", ".
-
 #· "Total: {total_people_going}"
 
 class Party:
