@@ -6,13 +6,11 @@
 #You will be receiving a word and a synonym each on a separate line like this:
 
 #· {word}
-
 #· {synonym}
 
 #If you get the same word twice, just add the new synonym to the list.
 
 #Print the words in the following format:
-
 #{word} - {synonym1, synonym2 … synonymN}
 
 from collections import defaultdict
