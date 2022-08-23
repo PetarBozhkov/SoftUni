@@ -7,7 +7,6 @@
 #On the following line, you will be given products to search for. Check for each product. You have 2 possibilities:
 
 #· If you have the product, print "We have {quantity} of {product} left".
-
 #· Otherwise, print "Sorry, we don't have {product}".
 
 elements = input().split(" ")
