@@ -1,6 +1,7 @@
 results = input()
 users_score = dict()
 languages = dict()
+
 while results != "exam finished":
     results = results.split("-")
     username = results[0]
