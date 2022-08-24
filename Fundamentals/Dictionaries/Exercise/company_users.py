@@ -1,5 +1,6 @@
 force_side_dict = {}
 command = input()
+
 while command != "Lumpawaroo":
     if "|" in command:
         splitted_command = command.split(" | ")
