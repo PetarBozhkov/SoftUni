@@ -14,4 +14,5 @@ for ch in text:
         letters += ch
     else:
         others += ch
+        
 print(f"{digits}\n{letters}\n{others}")
