@@ -1,5 +1,6 @@
 text = input()
 output = ""
+
 for i in range(len(text)):
     if i == len(text)-1:
         if text[i-2] != text[-1]:
