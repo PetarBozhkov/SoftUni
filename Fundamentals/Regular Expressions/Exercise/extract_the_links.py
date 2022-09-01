@@ -8,5 +8,4 @@ while True:
     matches_url = re.finditer(expression, data)
     for match in matches_url:
         print(match.group("url"))
-
     data = input()
