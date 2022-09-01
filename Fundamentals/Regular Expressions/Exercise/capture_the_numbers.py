@@ -1,9 +1,9 @@
 import re
+
 expression = r"\d+"
 numbs = list()
 while True:
     text = input()
-
     if not text:
         break
 
