@@ -1,4 +1,5 @@
 import re
+
 text = input()
 expression = r"(?<=\s)\_{1}(?P<name>[a-zA-Z0-9]+)\b"
 matches = re.finditer(expression, text)
