@@ -7,15 +7,10 @@
 #In the end, print the name of each bought furniture and the total cost, formatted to the second decimal point:
 
 #"Bought furniture:
-
 #{1st name}
-
 #{2nd name}
-
 #…
-
 #{N name}
-
 #Total money spend: {total_cost}"
 
 import re
