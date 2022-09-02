@@ -9,7 +9,6 @@
 #· {host} is a sequence of at least two words, each couple of words must be separated by a single dot ".". 
 
 #Each word consists of only letters and can have hyphens "-" between the letters.
-
 #o Examples of valid hosts: "softuni.bg", "software-university.com", "intoprogramming.info", "mail.softuni.org"
 #o Examples of invalid hosts: "helloworld", ".unknown.soft." , "invalid-host-", "invalid-"
 
