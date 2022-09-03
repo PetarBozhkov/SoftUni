@@ -1,6 +1,7 @@
 command = input()
 count_command = 0
 events = ['coding', 'dog', 'cat', 'movie']
+
 while command != 'END':
     if command.lower() in events:
         if command.isupper():
