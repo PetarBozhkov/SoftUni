@@ -1,5 +1,4 @@
 #2. Find the Capitals
-
 #Write a program that takes a single string and prints a list of all the capital letters indices.
 
 letter = input()
