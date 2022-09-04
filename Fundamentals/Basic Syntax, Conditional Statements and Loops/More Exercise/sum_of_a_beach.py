@@ -1,3 +1,8 @@
+#4. Sum of a Beach
+
+#Beaches are filled with sand, water, fish, and sun. 
+#Given a string, calculate how many times the words "Sand", "Water", "Fish", and "Sun" appear (case insensitive).
+
 import re
 the_letter = input()
 the_letter = the_letter.lower()
