@@ -1,5 +1,4 @@
 #3. Wolf in Sheep's Clothing
-
 #Wolves have been reintroduced to Great Britain. You are a sheep farmer and are now plagued by wolves who pretend to be sheep. 
 #Fortunately, you are good at spotting them.
 #Warn the sheep in front of the wolf that it is about to be eaten. 
