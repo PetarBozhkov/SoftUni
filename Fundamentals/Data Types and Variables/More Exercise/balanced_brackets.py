@@ -1,5 +1,6 @@
 numb = int(input())
 last_value = []
+
 for i in range(numb):
     value = input()
     if '(' in value and '(' not in last_value:
