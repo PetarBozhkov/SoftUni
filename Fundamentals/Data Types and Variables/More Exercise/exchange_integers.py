@@ -1,5 +1,6 @@
 first_number = int(input())
 second_number = int(input())
+
 print(f'Before:')
 print(f'a = {first_number}')
 print(f'b = {second_number}')
