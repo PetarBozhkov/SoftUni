@@ -1,6 +1,7 @@
 the_numbers = input().split(' ')
 the_string = list(tuple(input()))
 result = []
+
 for i in range(len(the_numbers)):
     the_number = 0
     for i2 in range(len(the_numbers[i])):
