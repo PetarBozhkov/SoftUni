@@ -3,6 +3,7 @@ def make_digit(matrix:list):
         matrix[i] = int(matrix[i])
     return matrix
 
+
 def is_exchange(index: int, matrix: list):
     if index >= len(matrix) or index < 0:
         print('Invalid index')
