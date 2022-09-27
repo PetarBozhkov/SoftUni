@@ -14,6 +14,7 @@ def is_first_win(first_move: list, second_move: list, third_move: list):
             return True
         elif second_move[2] == '1' and third_move[2] == '1':
             return True
+        
 
 def is_second_win(first_move: list, second_move: list, third_move: list):
     if first_move.count('2') == 3 or second_move.count('2') == 3 or third_move.count('2') == 3:
