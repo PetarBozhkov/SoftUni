@@ -27,6 +27,7 @@ all_times = input().split(' ')
 a_side = int((len(all_times) - 1) / 2)
 first_car_time = time_of_first_car(slice=a_side, the_time=all_times)
 second_car_time = time_of_second_car(slice=a_side, the_time=all_times)
+
 if first_car_time < second_car_time:
     print(f'The winner is left with total time: {first_car_time:.1f}')
 else:
