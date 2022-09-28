@@ -1,5 +1,4 @@
 #6. List Manipulator
-
 #Trifon has finally become a junior developer and has received his first task. It is about manipulating a list of integers. 
 #He is not quite happy about it since he hates manipulating lists. 
 #They will pay him a lot of money, though, and he is willing to give somebody half of it if to help him do his job. 
