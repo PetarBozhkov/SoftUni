@@ -1,5 +1,4 @@
 #2. Messaging
-
 #On the first line, you will receive a sequence of numbers separated by a single space. 
 #On the second line, you will receive a string.
 #Your task is to write a program that sends a message only using chars from the given string. 
