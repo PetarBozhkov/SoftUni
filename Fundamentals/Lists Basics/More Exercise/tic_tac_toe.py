@@ -1,3 +1,13 @@
+#5. Tic-Tac-Toe
+
+#You will receive a field of a tic-tac-toe game in three lines containing numbers, separated by a single space.
+#Legend:
+#· 0 - empty space
+#· 1 - first player move
+#· 2 - second player move
+#Find out who the winner is. If the first player wins, print "First player won". 
+#If the second player wins, print "Second player won". Otherwise, print "Draw!".
+
 def is_first_win(first_move: list, second_move: list, third_move: list):
     if first_move.count('1') == 3 or second_move.count('1') == 3 or third_move.count('1') == 3:
         return True
