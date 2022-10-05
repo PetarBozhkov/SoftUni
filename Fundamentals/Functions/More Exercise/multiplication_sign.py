@@ -1,5 +1,4 @@
 #5. Multiplication Sign
-
 #You will receive three integer numbers. Write a program that finds if their multiplication (the result) is negative, positive, or zero. 
 #Try to do this WITHOUT multiplying the 3 numbers.
 
