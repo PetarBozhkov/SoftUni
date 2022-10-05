@@ -1,3 +1,7 @@
+#5. Multiplication Sign
+#You will receive three integer numbers. Write a program that finds if their multiplication (the result) is negative, positive, or zero. 
+#Try to do this WITHOUT multiplying the 3 numbers.
+
 def multipliaction_numbers(one: int, two: int, three: int):
     if any([three > 0 > one and two < 0, two > 0 > one and three < 0, one > 0 > two and three < 0,
             one > 0 and two > 0 and three > 0]):
