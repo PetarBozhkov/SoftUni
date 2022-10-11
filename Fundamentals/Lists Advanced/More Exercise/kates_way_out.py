@@ -1,4 +1,5 @@
 #3. Kate's Way Out
+
 #Kate is stuck in a maze. You should help her to find her way out.
 #On the first line, you will be given how many rows there are in the maze. 
 #On the following n lines, you will be given the maze itself. Here is a legend for the maze:
