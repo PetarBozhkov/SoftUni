@@ -1,4 +1,5 @@
 #2. Take/Skip Rope
+
 #Write a program, which reads a string and skips through it, extracting a hidden message. The algorithm you should implement is as follows:
 #Let us take the string "skipTest_String044160" as an example.
 #Take every digit from the string and transfer it somewhere. 
