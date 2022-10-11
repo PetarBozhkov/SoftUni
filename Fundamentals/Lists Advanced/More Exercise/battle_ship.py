@@ -1,5 +1,4 @@
 #4. Battle Ships
-
 #You will be given a number n representing the number of rows of the field. 
 #On the following n lines, you will receive each field row as a string with numbers separated by a space. 
 #Each number greater than zero represents a ship with health equal to the number value.
