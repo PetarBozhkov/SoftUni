@@ -1,4 +1,5 @@
 #1. Social Distribution
+
 #A core idea of several left-wing ideologies is that the wealthiest should support the poorest, no matter what, and that is exactly what you are called to do for this problem.
 #On the first line, you will be given the population (numbers separated by comma and space ", "). 
 #On the second line, you will be given the minimum wealth. 
