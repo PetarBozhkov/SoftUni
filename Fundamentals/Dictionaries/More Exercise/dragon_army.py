@@ -1,6 +1,5 @@
 count_dragon = int(input())
 dragon_info = dict()
-
 for _ in range(count_dragon):
     data = input().split(" ")
     color, name, damage, health, armor = data[0], data[1], data[2], data[3], data[4]
