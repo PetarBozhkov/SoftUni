@@ -1,5 +1,6 @@
 commands = input()
 dwarf_info = dict()
+
 while commands != "Once upon a time":
     commands = commands.split(" <:> ")
     name, hat_color, physics = commands[0], commands[1], int(commands[2])
