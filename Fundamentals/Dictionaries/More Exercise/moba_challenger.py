@@ -22,7 +22,6 @@ def duel_players(player_one: str, player_two: str):
 
 commands = input()
 players = dict()
-
 while commands != "Season end":
     if " vs " in commands:
         commands = commands.split(" vs ")
