@@ -1,7 +1,6 @@
 import operator
 commands = input()
 courses = dict()
-
 while commands != "no more time":
     commands = commands.split(" -> ")
     username = commands[0]
