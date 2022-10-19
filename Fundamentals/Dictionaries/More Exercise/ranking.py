@@ -1,5 +1,6 @@
 contests_and_pass = input()
 contests = dict()
+
 while contests_and_pass != "end of contests":
     contests_and_pass = contests_and_pass.split(":")
     contest = contests_and_pass[0]
