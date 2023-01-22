@@ -6,7 +6,6 @@ def collect_data_for_arrived_guests():
             break
         else:
             arrived_guests_list.append(data)
-
     return arrived_guests_list
 
 
