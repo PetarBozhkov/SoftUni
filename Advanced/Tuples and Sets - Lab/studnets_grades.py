@@ -1,6 +1,5 @@
 n = int(input())
 students_data = {}
-
 for _ in range(n):
     student_name, grade = input().split(' ')
     if student_name not in students_data:
