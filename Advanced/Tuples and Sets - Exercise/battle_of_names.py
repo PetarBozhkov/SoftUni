@@ -1,4 +1,5 @@
 #6. Battle of Names
+
 #You will receive a number N. On the following N lines, you will be receiving names. 
 #You should sum the ASCII values of each letter in the name and integer divide it by the number of the current row (starting from 1). 
 #Save the result to a set of either odd or even numbers, depending on if the resulting number is odd or even. After that, sum the values of each set.
