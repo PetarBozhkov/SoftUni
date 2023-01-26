@@ -11,9 +11,7 @@ functions = {
 
 for _ in range(int(input())):
     first_command, *data = input().split()
-
     command = first_command + " " + data.pop(0)
-
     if data:
         functions[command]([int(x) for x in data])
     else:
