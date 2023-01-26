@@ -1,7 +1,6 @@
 from collections import deque
 
 words = deque(input().split())
-
 colors = {"red", "yellow", "blue", "orange", "purple", "green"}
 req_colors = {
     "orange": {"red", "yellow"},
@@ -27,6 +26,5 @@ while words:
 for color in set(req_colors.keys()).intersection(result):
     if not req_colors[color].issubset(result):
         result.remove(color)
-
-
+        
 print(result)
