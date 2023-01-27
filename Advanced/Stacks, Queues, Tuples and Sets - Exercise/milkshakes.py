@@ -1,9 +1,6 @@
 #3. Milkshakes
-
 #You are learning how to make milkshakes.
-
 #First, you will be given two sequences of integers representing chocolates and cups of milk.
-
 #You have to start from the last chocolate and try to match it with the first cup of milk. 
 #If their values are equal, you should make a milkshake and remove both ingredients. 
 #Otherwise, you should move the cup of milk at the end of the sequence and decrease the value of the chocolate by 5 without moving it from its position.
