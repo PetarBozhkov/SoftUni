@@ -1,5 +1,4 @@
 #1. Numbers
-
 #First, you will be given two sequences of integers values on different lines. The values of the sequences are separated by a single space between them.
 #Keep in mind that each sequence should contain only unique values.
 #Next, you will receive a number - N. On the next N lines, you will receive one of the following commands:
