@@ -1,3 +1,7 @@
+#4. Maximal Sum
+#Write a program that reads a rectangular matrix's dimensions and finds the 3x3 square with a maximum sum of its elements. 
+#There will be no case with two or more 3x3 squares with equal maximal su
+
 rows, cols = [int(x) for x in input().split()]
 matrix = [[int(x) for x in input().split()] for _ in range(rows)]
 
