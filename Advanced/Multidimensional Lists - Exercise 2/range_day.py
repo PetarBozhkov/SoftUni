@@ -1,26 +1,25 @@
-def move(direction, steps):  # създаваме фунцкия move, първи параметър посоката и втори стъпките int
-    r = my_position[0] + (directions[direction][0] * steps)  # намираме реда и колоната като умножаваме стойностите от
-    c = my_position[1] + (directions[direction][1] * steps)  # посоката по стъпките и събираме с текущите координати
+def move(direction, steps):  
+    r = my_position[0] + (directions[direction][0] * steps)  
+    c = my_position[1] + (directions[direction][1] * steps)  
 
-    if not (0 <= r < size and 0 <= c < size):  # проверяваме дали позицията, на която искаме да стъпим е валидна
-        return my_position  # ако не е, връщаме текущата позиция
-    if field[r][c] == 'x':  # проверяваме дали на позицията, на която искаме да стъпим има мишена
-        return my_position  # ако да, връщаме текущата позиция
+    if not (0 <= r < size and 0 <= c < size):  
+        return my_position 
+    if field[r][c] == 'x': 
+        return my_position  
 
-    return [r, c]  # връщаме новата позиция
+    return [r, c]  
 
 
-def shoot(direction):  # създаваме фунцкия shoot, параметър посоката на стрелба
-    r = my_position[0] + directions[direction][0]  # намираме реда и колоната като събираме координатите от посоката
-    c = my_position[1] + directions[direction][1]  # с тези, на които се намираме
+def shoot(direction):  
+    r = my_position[0] + directions[direction][0]  
+    c = my_position[1] + directions[direction][1]  
 
-    while 0 <= r < size and 0 <= c < size:  # развъртаме цикъл докато координатите са валидни
-        if field[r][c] == 'x':  # проверяваме дали куршума е достигнал мишена
-            field[r][c] = '.'  # ако да, заменяме х с точка
-            return [r, c]  # връщаме позицията на улучената мишена
-
-        r += directions[direction][0]  # събираме координатите от посоката
-        c += directions[direction][1]  # с тези, на които се намира куршума
+    while 0 <= r < size and 0 <= c < size:  
+        if field[r][c] == 'x':  
+            field[r][c] = '.'  
+            return [r, c] 
+        r += directions[direction][0]  
+        c += directions[direction][1]  
 
 
 size = 5  # запазваме размера на матрицата в променлива
@@ -39,32 +38,31 @@ directions = {  # създаваме променлива, в която да п
     'right': (0, 1),
 }
 
-for row in range(size):  # развъртаме цикъл за всеки ред, за да прочетем матрицата
-    field.append(input().split())  # прочитаме ред от конзолата, разделяме го по спейс и го добавяме към матрицата
+for row in range(size):  
+    field.append(input().split())  
 
-    if 'A' in field[row]:  # проверяваме дали нашата позиция се намира на този ред
-        my_position = [row, field[row].index('A')]  # запазваме нашата позиция
-        field[row][my_position[1]] = '.'  # променяме стойността на позицията ни в матрицата на точка
-    if 'x' in field[row]:  # проверяваме дали на реда има мишени
-        targets += field[row].count('x')  # увеличаваме броя на мишените с броя им на реда
+    if 'A' in field[row]: 
+        my_position = [row, field[row].index('A')] 
+        field[row][my_position[1]] = '.'  
+    if 'x' in field[row]:  
+        targets += field[row].count('x')  
+for _ in range(int(input())):  
+    command_info = input().split()  
 
-for _ in range(int(input())):  # развъртаме цикъл за очаквания брой команди
-    command_info = input().split()  # прочитаме командата и я разделяме по спейс
+    if command_info[0] == 'move':  
+        my_position = move(command_info[1], int(command_info[2]))  
+    elif command_info[0] == 'shoot':  
+        target_down_pos = shoot(command_info[1])  
 
-    if command_info[0] == 'move':  # проверяваме дали командата е move
-        my_position = move(command_info[1], int(command_info[2]))  # извикваме функцията move, стъпките стават int
-    elif command_info[0] == 'shoot':  # проверяваме дали командата е shoot
-        target_down_pos = shoot(command_info[1])  # извикваме функцията shoot, параметър е посоката
+        if target_down_pos:  
+            targets_hit_positions.append(target_down_pos)  
+            targets_hit += 1 
 
-        if target_down_pos:  # проверяваме дали сме свалили мишена
-            targets_hit_positions.append(target_down_pos)  # добавяме позицията на свалената мишена
-            targets_hit += 1  # увеличаваме броя на свалените мишени с 1
+        if targets_hit == targets:  
+            print(f'Training completed! All {targets} targets hit.')  
+            break  
 
-        if targets_hit == targets:  # проверяваме дали всички мишени са свалени
-            print(f'Training completed! All {targets} targets hit.')  # принтираме, че успешно сме завършили обучението
-            break  # прекратяваме цикъла
+if targets_hit < targets:  
+    print(f'Training not completed! {targets - targets_hit} targets left.')  
 
-if targets_hit < targets:  # проверяваме дали са останали мишени
-    print(f'Training not completed! {targets - targets_hit} targets left.')  # принтираме неуспешно завършено обучение
-
-[print(target_pos) for target_pos in targets_hit_positions]  # принтираме позициите на свалените мишени
+[print(target_pos) for target_pos in targets_hit_positions]  
