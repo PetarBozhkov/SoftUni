@@ -6,6 +6,7 @@ test_input = '''Hello
 
 sys.stdin = StringIO(test_input)
 
+
 def repeat_text(text, number):
     return text * number
 
