@@ -1,9 +1,7 @@
-#1. So Many Exceptions
+#2. Repeat Text
 
-#You are provided with the following code. This code raises many exceptions. Fix it, so it works correctly.
-#It is given a sequence of numbers, separated by a ", ". 
-#Iterate through each number by its index, and if the number is smaller or equal to 5, make a multiplication. 
-#If the number is larger than 5 and smaller or equal to 10, divide the result by the number. In the end, print the final result.
+#Write a program that receives a text on the first line and times (to repeat the text) that must be an integer. 
+#If the user passes a non-integer type for the times variable, handle the exception and print a message "Variable times must be an integer".
 
 from io import StringIO
 import sys
