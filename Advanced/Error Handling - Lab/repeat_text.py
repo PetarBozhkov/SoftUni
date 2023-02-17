@@ -1,4 +1,5 @@
 #1. So Many Exceptions
+
 #You are provided with the following code. This code raises many exceptions. Fix it, so it works correctly.
 #It is given a sequence of numbers, separated by a ", ". 
 #Iterate through each number by its index, and if the number is smaller or equal to 5, make a multiplication. 
