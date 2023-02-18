@@ -25,9 +25,7 @@ MIN_LENGTH = 4
 
 pattern_name = r'[\w+\.]+'
 pattern_domain = r'\.[a-z]+'
-
 valid_domains = [".com", ".bg", ".net", ".org"]
-
 email = input()
 
 while email != "End":
