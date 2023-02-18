@@ -1,6 +1,6 @@
 numbers_dictionary = {}
-
 line = input()
+
 while line != "Search":
     try:
         number_as_string = line
