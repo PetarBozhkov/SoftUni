@@ -1,3 +1,8 @@
+#2. Line Numbers
+
+#Write a program that reads a text file, inserts line numbers in front of each line, and counts all the letters and punctuation marks. 
+#The result should be written to another text file
+
 from string import punctuation
 
 with open("files/text.txt", "r") as text_file:
