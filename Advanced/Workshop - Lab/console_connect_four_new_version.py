@@ -2,24 +2,19 @@ def create_matrix(rows: int, columns: int):
     matrix = []
     for _ in range(rows):
         matrix.append([0] * columns)
-
     return matrix
 
 
 def player_choice(player):
     choice = int(input(f'Player {player}, please choose a column:\n'))
-
     return choice - 1
 
 
 def implement_player_data_to_main_logic(playground, player_index, player):
     start_row_index = 0
-
     while start_row_index < len(playground) and playground[start_row_index][player_index] == 0:
         start_row_index += 1
-
     playground[start_row_index - 1][player_index] = player
-
     return start_row_index - 1, player_index
 
 
