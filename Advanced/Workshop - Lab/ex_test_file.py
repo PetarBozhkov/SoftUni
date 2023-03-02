@@ -2,6 +2,7 @@ def check_left_win_condition(playground, row_index, column_index, min_column_ind
     left_values = [playground[row_index][i] for i in range(column_index, min_column_index, -1)]
     return left_values
 
+
 result = check_left_win_condition(
     playground=[
         [0, 0, 0, 0, 0, 0, 0],
