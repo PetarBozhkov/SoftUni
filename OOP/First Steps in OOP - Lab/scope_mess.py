@@ -1,3 +1,7 @@
+#2. Scope Mess
+
+#Fix the code below, so it returns the expected output. Submit the fixed code in the judge system.
+
 x = "global"
 
 def outer():
