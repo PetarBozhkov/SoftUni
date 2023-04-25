@@ -1,3 +1,14 @@
+#5. Music
+
+#Create a class named Music that receives title (string), artist (string), and lyrics (string) upon initialization. 
+#The class should also have two additional methods:
+
+#· The print_info() method should return the following: 'This is "{title}" from "{artist}"'
+
+#· The play() method should return the lyrics.
+
+#Submit only the class in the judge system. Test your code with your own examples.
+
 class Music:
     def __init__(self, title, artist, lyrics):
         self.title = title
