@@ -3,11 +3,13 @@ class Cup:
         self.size = size
         self.quantity = quantity
 
+        
     def fill(self, value):
         total_value = self.quantity + value
         if total_value <= self.size:
             self.quantity = total_value
 
+            
     def status(self):
         return self.size - self.quantity
 
