@@ -1,5 +1,4 @@
 #7. Programmer
-
 #Create a class called Programmer. Upon initialization, it should receive name (string), language (string), skills (integer). 
 #The class should have two methods:
 #- watch_course(course_name, language, skills_earned)
